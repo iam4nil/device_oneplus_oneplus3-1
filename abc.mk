@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
 # Inherit AOSP device configuration for Taimen
-$(call inherit-product, device/google/taimen/aosp_taimen.mk)
+$(call inherit-product, device/oneplus/oneplus3/aosp_oneplus3.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := abc_oneplus3
